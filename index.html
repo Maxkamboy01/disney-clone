@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="nav-first-navs">
+          <a
+            target="blank"
+            href="https://www.disney.com/?intoverride=true"
+            class="logo"
+            ><img src="logo.jpg" alt="logo"
+          /></a>
+
+          <div class="icons">
+            <a href="#" class="nav-icon">Disney+</a>
+            <a href="#" class="nav-icon">Parks & Travel</a>
+            <a href="#" class="nav-icon">Movies</a>
+            <a href="#" class="nav-icon">Shop</a>
+            <a href="#" class="nav-icon">More</a>
+          </div>
+        </div>
+        <div class="nav-input">
+          <input type="search" placeholder="Search" />
+          <button><i class="fas fa-search search-icon"></i></button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="header">
+      <video muted playsinlist loop autoplay>
+        <source
+          src="https://cdnvideo.dolimg.com/cdn_assets/ea3a85e3ca60eacca5bd5bf44e481efc940f86ab.mp4"
+        />
+      </video>
+    </div>
+    <section style="background-color: #f1f2f3; padding: 10px">
+      <div id="loopCards" class="loopcards container"></div>
+      <div id="news" class="news container">
+        <div class="news-title-div">
+          <p class="title">Disney News</p>
+        </div>
+        <div id="news-div" class="news-div"></div>
+      </div>
+    </section>
+
+    <section style="background-color: #0a193c; color: white">
+      <div id="trendings" class="trendings container">
+        <div class="news-title-div">
+          <p class="title">Trending On Disney +</p>
+        </div>
+        <div
+          id="trends"
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          "
+          class="trending"
+        >
+          <div class="trend">
+            <div class="image-div">
+              <img src="cruella.jpeg" alt="cruella" />
+            </div>
+            <div class="trendings-text-div">
+              <p class="title"><i>Cruella</i></p>
+              <p class="text"></p>
+              <p class="ankor">
+                <a target="blank" href="https://www.google.com">Order Now</a>
+              </p>
+            </div>
+          </div>
+          <div class="trend">
+            <div class="image-div"><img src="raya.webp" alt="raya" /></div>
+            <div class="trendings-text-div">
+              <p class="title"><i>Raya and the last dragon</i></p>
+              <p class="text"></p>
+              <p class="ankor">
+                <a target="blank" href="https://www.google.com">Stream Now</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background-color: #f1f2f3; padding: 10px">
+      <div id="" class="carousel-container container">
+        <div class="news-title-div">
+          <p class="title">Celebrate Pride Month on Disney+</p>
+        </div>
+        <div id="celebrate-div" class="celebrate-div"></div>
+      </div>
+
+      <div id="" class="throw-container container">
+        <div class="news-title-div">
+          <p class="title">Throwbacks on Disney+</p>
+        </div>
+        <div id="throw-div" class="throw-div"></div>
+      </div>
+
+      <div id="" class="soon-container throw-container container">
+        <div class="news-title-div">
+          <p class="title">Coming Soon to Disney+</p>
+        </div>
+        <div id="soon-div" class="throw-div">
+          <div class="throw soon">
+            <div class="throw-img-div soon-img-div">
+              <img src="soon-5.webp" alt="" />
+            </div>
+            <p class="throwname soonname">asndnuis</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="trendings" class="trendings container">
+        <div class="news-title-div">
+          <p class="title">Vacation with Disney Parks</p>
+        </div>
+        <div
+          id="trends"
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          "
+          class="trending"
+        >
+          <div class="trend">
+            <div class="image-div">
+              <img src="vocation-1.webp" alt="vocation-1" />
+            </div>
+            <div class="trendings-text-div">
+              <p class="title"><i>Magic is here</i></p>
+              <p class="text">
+                Disneyland® Resort is now open. Tickets and theme park
+                reservations are available to California residents.
+              </p>
+              <p class="ankor">
+                <a target="blank" href="https://www.google.com">Learn More</a>
+              </p>
+            </div>
+          </div>
+          <div class="trend">
+            <div class="image-div">
+              <img src="vocation-2.webp" alt="vocation-2" />
+            </div>
+            <div class="trendings-text-div">
+              <p class="title"><i>Early Booking Offer</i></p>
+              <p class="text">
+                Plan your 2022 adventure with savings of $500 per person on
+                select departures!
+              </p>
+              <p class="ankor">
+                <a target="blank" href="https://www.google.com">Learn More</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex" class="cards">
+        <div class="card-div">
+          <img src="cards.svg" alt="" />
+        </div>
+        <div class="cards-text">
+          <p class="cards-title">Your Disney dream is in the cards</p>
+          <p class="cards-subtitle">
+            Earn a <b style="font-weight: 900">$300</b> statement credit. New
+            Disney Premium Visa CardMembers only
+          </p>
+          <a href="https://www.google.com/" class="ankor">LEARN MORE</a>
+          <p class="cards-end-text">
+            Restrictions apply. Disny and its related entitles
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-title">
+        <img
+          class="footer-logo"
+          src="	https://static-mh.content.disney.io/matterhorn/assets/goc/nav-logo-dark@2x-2b3eb08c507c.png"
+          alt="footer image"
+        />
+      </div>
+      <div class="footer-text">
+        <div class="footer-bold-text">
+          <a href="https://www.disney.com/?intoverride=true">About Disney</a>
+          <a href="https://www.disney.com/?intoverride=true">Disney Help</a>
+          <a href="https://www.disney.com/?intoverride=true">Careers</a>
+          <a href="https://www.disney.com/?intoverride=true">Contact Us</a>
+          <a href="https://www.disney.com/?intoverride=true"
+            >Advertice With Us</a
+          >
+          <a href="https://www.disney.com/?intoverride=true"
+            >Disney Premiun Visa Card</a
+          >
+        </div>
+        <a href="https://www.disney.com/?intoverride=true"
+          ><b>Terms Of Use</b></a
+        >
+        <a href="https://www.disney.com/?intoverride=true"
+          ><b>Additional Content Information</b></a
+        >
+        <a href="https://www.disney.com/?intoverride=true"
+          ><b>Privacy Policy</b></a
+        >
+        <a href="https://www.disney.com/?intoverride=true"
+          ><b>Your California Privacy Rights</b></a
+        >
+        <a href="https://www.disney.com/?intoverride=true"
+          ><b>Children's Online Privacy Policy</b></a
+        >
+        <a href="https://www.disney.com/?intoverride=true"
+          ><b>Do Not Sell My Info</b></a
+        >
+        <a href="https://www.disney.com/?intoverride=true"
+          ><b>Privacy Policy</b></a
+        >
+        <a href="https://www.disney.com/?intoverride=true"
+          ><b>Privacy Policy</b></a
+        >
+        <a href="https://www.disney.com/?intoverride=true"
+          ><b>Interest-Based Ads</b></a
+        >
+      </div>
+      <p class="footer-last-text">
+        Disney, All Rights Reserved, Disney Entertainment
+      </p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

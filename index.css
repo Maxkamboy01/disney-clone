@@ -1,0 +1,484 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  margin: 30px auto;
+}
+
+nav .navbar {
+  width: 97%;
+  height: 60px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "" InspireTWDC "", "" AvenirNext "", "" Matterhorn "", "" Matterhorn "", Helvetica, sans-serif;
+}
+
+nav .navbar .nav-first-navs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .navbar .nav-first-navs .logo img {
+  width: 95px;
+  background-color: #fff;
+}
+
+nav .navbar .nav-first-navs .icons {
+  margin-left: 25px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 15px;
+  color: #0077da;
+}
+
+nav .navbar .nav-first-navs .icons a {
+  margin-right: 32px;
+}
+
+nav .nav-input {
+  margin-right: 15px;
+}
+
+nav .nav-input input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+nav .nav-input button {
+  width: 42px;
+  height: 40px;
+  margin-left: -5px;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  border: 1px solid black;
+  color: #0077da;
+  border-radius: 3px;
+}
+
+.header {
+  width: 100vw;
+}
+
+.header video {
+  width: 100%;
+}
+
+.header video source {
+  width: 100vw;
+}
+
+.news-title-div .title {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  padding: 35px 0px;
+  padding-bottom: 10px;
+}
+
+.loopcards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.loopcards .card {
+  width: 24.2%;
+  height: auto;
+  background-color: #fff;
+  text-align: center;
+}
+
+.loopcards .card .img-div {
+  overflow: hidden;
+  width: 100%;
+  height: 280px;
+}
+
+.loopcards .card .img-div img {
+  width: 100%;
+  height: 280px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.loopcards .card .img-div img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.loopcards .card .card-text {
+  font-style: italic;
+  font-weight: 400;
+  color: #222222;
+}
+
+.loopcards .card .card-text .title {
+  font-size: 20px;
+}
+
+.loopcards .card .card-text .text {
+  font-size: 16px;
+}
+
+.loopcards .card .card-text a {
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.news .news-title-div .title {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  padding: 35px 0px;
+  padding-bottom: 10px;
+}
+
+.news .news-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news .news-div .new {
+  width: 24.3%;
+  height: auto;
+  background-color: #fff;
+}
+
+.news .news-div .new .img-div {
+  overflow: hidden;
+}
+
+.news .news-div .new .img-div img {
+  width: 100%;
+  height: 160px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.news .news-div .new .img-div img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.news .news-div .new .news-text-div {
+  padding: 0 15px;
+}
+
+.news .news-div .new .news-text-div .title {
+  font-family: sans-serif-600;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #686869;
+}
+
+.news .news-div .new .news-text-div .news-text {
+  word-spacing: 1px;
+}
+
+.news .news-div .new .news-text-div .date {
+  font-size: 11px;
+}
+
+section .trendings .trending {
+  padding: 30px;
+}
+
+section .trendings .trending .trend {
+  width: 49%;
+  height: auto;
+}
+
+section .trendings .trending .trend .image-div {
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+}
+
+section .trendings .trending .trend .image-div img {
+  width: 100%;
+  height: 380px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+section .trendings .trending .trend .image-div img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+section .trendings .trending .trendings-text-div {
+  text-align: center;
+}
+
+section .trendings .trending .trendings-text-div .title {
+  font-size: 22px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+section .trendings .trending .trendings-text-div .text {
+  font-size: 17px;
+}
+
+section .trendings .trending .trendings-text-div .ankor {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+section .trendings .trending .trendings-text-div .ankor a {
+  color: white;
+  border-bottom: 1px solid #fff;
+}
+
+section .carousel-container .celebrate-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .carousel-container .celebrate-div .celebrate {
+  width: 18.5%;
+  height: 380px;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section .carousel-container .celebrate-div .celebrate img {
+  width: 100%;
+  height: 380px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+section .carousel-container .celebrate-div .celebrate img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+section .throw-container .throw-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .throw-container .throw-div .throw {
+  width: 18.5%;
+}
+
+section .throw-container .throw-div .throw .throw-img-div {
+  height: 400px;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section .throw-container .throw-div .throw .throw-img-div img {
+  width: 100%;
+  height: 380px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+section .throw-container .throw-div .throw .throw-img-div img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+section .throw-container .throw-div .throw .throwname {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+section .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 10px solid #fff;
+  padding: 0 50px;
+}
+
+section .cards:hover img {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+section .cards .card-div {
+  width: 50%;
+}
+
+section .cards .card-div img {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+section .cards .cards-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  text-align: center;
+  color: #0f2f5e;
+}
+
+section .cards .cards-text .cards-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+section .cards .cards-text .ankor {
+  font-size: 17px;
+  font-weight: 600;
+  color: #0f2f5e;
+}
+
+section .cards .cards-text .cards-end-text {
+  font-size: 10px;
+  color: grey;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+footer .footer-title .footer-logo {
+  width: 90px;
+  height: 40px;
+}
+
+footer .footer-text {
+  line-height: 30px;
+}
+
+footer .footer-text .footer-bold-text {
+  font-size: 11px;
+}
+
+footer .footer-text a {
+  font-size: 12px;
+  margin-right: 10px;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+footer .footer-text a:hover {
+  color: #0c6c8b;
+}
+
+footer .footer-last-text {
+  font-size: 12px;
+}
+/*# sourceMappingURL=index.css.map */
